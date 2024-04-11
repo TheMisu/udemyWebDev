@@ -11,6 +11,8 @@ The folders contain files (or other folders) names "solution". Those are the sol
 <br/>
 
 # Task descriptions:
-- 2.1 - This task deals with the different types of headings available in HTML (such as h1, h2 and so on...)
-- 2.2 - This task deals with the paragraph tag
+- Introduction to HTML
+    - 2.1 - This task deals with the different types of headings available in HTML (such as h1, h2 and so on...)
+    - 2.2 - This task deals with the paragraph tag
+    - 2.3 - This task deals with the void elements (such as br and hr)
 
