@@ -19,3 +19,4 @@ The folders contain files (or other folders) names "solution". Those are the sol
 - Intermediate HTML
     - 3.0 - This task introduces ordered/unordered lists
     - 3.1 - This task introduces the concepts of nesting lists and indentation
+    - 3.2 - This task introduces the concept oh hyperlinks/anchor tags
