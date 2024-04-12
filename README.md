@@ -18,3 +18,4 @@ The folders contain files (or other folders) names "solution". Those are the sol
     - 2.4 - This task combines all previous tasks in order to create a slightly more complex page than what we've done so far
 - Intermediate HTML
     - 3.0 - This task introduces ordered/unordered lists
+    - 3.1 - This task introduces the concepts of nesting lists and indentation
