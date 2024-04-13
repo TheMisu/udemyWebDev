@@ -22,3 +22,5 @@ The folders contain files (or other folders) names "solution". Those are the sol
     - 3.2 - This task introduces the concept oh hyperlinks/anchor tags
     - 3.3 - This task introduces the image elements (GIFs too)
     - 3.4 - This task combines all previous tasks in order to solidify the knowledge gathered in this part of the course
+- Multi-Page Websites
+    - 4.0 - This task introduces the concept of absolute/relative file paths
