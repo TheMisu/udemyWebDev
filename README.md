@@ -32,3 +32,4 @@ The folders contain files (or other folders) names "solution". Those are the sol
     - 5.4 - This task combines all previous tasks in order to solidify the knowledge gathered in this part of the course
 - CSS Properties:
     - 6.0 - This task introduces the concept of colors as hex numbers 
+    - 6.1 - This task introduces the concept of changing fonts (and their weight, size...)
