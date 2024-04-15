@@ -33,3 +33,4 @@ The folders contain files (or other folders) names "solution". Those are the sol
 - CSS Properties:
     - 6.0 - This task introduces the concept of colors as hex numbers 
     - 6.1 - This task introduces the concept of changing fonts (and their weight, size...)
+    - 6.3 - This task introduces the CSS Box Model and terms such as margin, padding and border.
