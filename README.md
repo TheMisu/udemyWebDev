@@ -25,4 +25,6 @@ The folders contain files (or other folders) names "solution". Those are the sol
 - Multi-Page Websites
     - 4.0 - This task introduces the concept of absolute/relative file paths
     - 4.1 - This task deals with multi-page websites and the distinction between the "href" and the "src" attributes.
-    - 4.2 - This task combines all previous tasks in order to solidify the knowledge gathered in this part of the course 
+    - 4.3 - This task combines all previous tasks in order to solidify the knowledge gathered in this part of the course 
+- Introduction to CSS
+    - 5.1 - This task introduces the concept of CSS and the 3 ways of adding it to a webpage (inline/internal/external)
