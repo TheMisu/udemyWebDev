@@ -29,3 +29,4 @@ The folders contain files (or other folders) names "solution". Those are the sol
 - Introduction to CSS
     - 5.1 - This task introduces the concept of CSS and the 3 ways of adding it to a webpage (inline/internal/external)
     - 5.3 - This task introduces CSS selectors. The task teaches us how to apply CSS to only certain HTML elements.
+    - 5.4 - This task combines all previous tasks in order to solidify the knowledge gathered in this part of the course
