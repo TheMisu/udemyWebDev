@@ -35,3 +35,5 @@ The folders contain files (or other folders) names "solution". Those are the sol
     - 6.1 - This task introduces the concept of changing fonts (and their weight, size...)
     - 6.3 - This task introduces the CSS Box Model and terms such as margin, padding and border.
     - 6.4 - This task combines all previous tasks in order to solidify the knowledge gathered in this part of the course
+- Intermediate CSS:
+    - 7.0 - This task introduces the concept of cascading CSS and the orde in which rules get applied.
