@@ -1,4 +1,28 @@
 /* Write your code here: */
+/* grouping selectors */
 h1, h2 {
     color: blueviolet;
+}
+
+/* direct child selector (uses an element DIRECTLY 
+   after the parent selector) */
+.box > p {
+    color: firebrick;
+}
+
+/* descendent selector (apply to any descendent of left side, 
+   not necessarily to the direct child) */
+.box li {
+    color: blue;
+}
+
+/* chaining = Apply where ALL selectors are true 
+   ALWAYS start with the element selector, eg: h1.class#id */
+li.done {
+    color: seagreen;
+}
+
+/* it is also possible to combine combiners like this*/
+ul p.done {
+    font-size: 0.5rem;
 }
