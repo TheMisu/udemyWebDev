@@ -38,3 +38,6 @@ The folders contain files (or other folders) names "solution". Those are the sol
 - Intermediate CSS:
     - 7.0 - This task introduces the concept of cascading CSS and the orde in which rules get applied.
     - 7.1 - This task introduces the concept of combining selectors (either by targetting more selectors at the same time or combining classes and their children elements)
+    - 7.2 - This task introduces the concept of positioning (static/relative/absolute/fixed)
+    
+    
