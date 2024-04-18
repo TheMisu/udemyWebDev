@@ -40,4 +40,6 @@ The folders contain files (or other folders) names "solution". Those are the sol
     - 7.1 - This task introduces the concept of combining selectors (either by targetting more selectors at the same time or combining classes and their children elements)
     - 7.2 - This task introduces the concept of positioning (static/relative/absolute/fixed)
     - 7.3 - This project combines all previous tasks in order to solidify the knowledge gathere in this module.
+- Advanced CSS:
+    - 8.0 - This task introduces the CSS Display property. This allows us to show elements on the same line (or under each other)
     
