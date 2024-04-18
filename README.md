@@ -39,10 +39,11 @@ The folders contain files (or other folders) names "solution". Those are the sol
     - 7.0 - This task introduces the concept of cascading CSS and the order in which rules get applied.
     - 7.1 - This task introduces the concept of combining selectors (either by targetting more selectors at the same time or combining classes and their children elements)
     - 7.2 - This task introduces the concept of positioning (static/relative/absolute/fixed)
-    - 7.3 - This project combines all previous tasks in order to solidify the knowledge gathere in this module.
+    - 7.3 - This project combines all previous tasks in order to solidify the knowledge gathered in this module.
 - Advanced CSS:
     - 8.0 - This task introduces the CSS Display property. This allows us to show elements on the same line (or under each other)
     - 8.1 - This task introduces the float/clear CSS rules. They help with formatting a webpage's layout.
     - 8.2 - This "task" introduces the concept of responsiveness (via media queries/grid/flexbox).
-    - 8.3 - This task requires that we change the background color of a webpage depending on its width. 
+    - 8.3 - This task requires that we change the background color of a webpage depending on its width.
+    - 8.4 - This project combines all previous tasks in order to solidify the knowledge gathered in this module 
     
