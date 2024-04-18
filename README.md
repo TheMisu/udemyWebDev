@@ -42,4 +42,5 @@ The folders contain files (or other folders) names "solution". Those are the sol
     - 7.3 - This project combines all previous tasks in order to solidify the knowledge gathere in this module.
 - Advanced CSS:
     - 8.0 - This task introduces the CSS Display property. This allows us to show elements on the same line (or under each other)
+    - 8.1 - This task introduces the float/clear CSS rules. They help with formatting a webpage's layout.
     
