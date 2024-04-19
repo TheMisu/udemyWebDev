@@ -48,4 +48,4 @@ The folders contain files (or other folders) names "solution". Those are the sol
     - 8.4 - This project combines all previous tasks in order to solidify the knowledge gathered in this module 
 - Flexbox:
     - 9.0 - This task introduces the concept of flexbox and makes us design a very basic navbar
-    
+    - 9.1 - This task introduces the concepts of flex-direction and main axis/cross axis 
