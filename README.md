@@ -46,4 +46,6 @@ The folders contain files (or other folders) names "solution". Those are the sol
     - 8.2 - This "task" introduces the concept of responsiveness (via media queries/grid/flexbox).
     - 8.3 - This task requires that we change the background color of a webpage depending on its width.
     - 8.4 - This project combines all previous tasks in order to solidify the knowledge gathered in this module 
+- Flexbox:
+    - 9.0 - This task introduces the concept of flexbox and makes us design a very basic navbar
     
