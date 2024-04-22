@@ -49,3 +49,4 @@ The folders contain files (or other folders) names "solution". Those are the sol
 - Flexbox:
     - 9.0 - This task introduces the concept of flexbox and makes us design a very basic navbar
     - 9.1 - This task introduces the concepts of flex-direction and main axis/cross axis 
+    - 9.4 - This project solidifies the concepts taught throughout this module by making us build a responsive pricing table
