@@ -5,7 +5,7 @@ My solutions to the tasks in Dr. Angela Yu's web dev course.
 <br/>
 
 # Info:
-The folders contain files (or other folders) names "solution". Those are the solutions provided by the course. Everything else is written by myself.
+The folders contain files (or other folders) named "solution". Those are the solutions provided by the course. Everything else is written by myself.
 
 <br/>
 <br/>
@@ -50,3 +50,6 @@ The folders contain files (or other folders) names "solution". Those are the sol
     - 9.0 - This task introduces the concept of flexbox and makes us design a very basic navbar
     - 9.1 - This task introduces the concepts of flex-direction and main axis/cross axis 
     - 9.4 - This project solidifies the concepts taught throughout this module by making us build a responsive pricing table
+- Grid: 
+    - 10.0 - This task introduces the concept of grid positioning
+    - 10.1 - This task solidifies our knowledge about sizing grids in CSS
