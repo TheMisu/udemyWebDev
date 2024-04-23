@@ -54,3 +54,4 @@ The folders contain files (or other folders) named "solution". Those are the sol
     - 10.0 - This task introduces the concept of grid positioning
     - 10.1 - This task solidifies our knowledge about sizing grids in CSS
     - 10.2 - This task teaches us how to combine grid and flexbox in order to create more advanced layouts
+    - 10.3 - This project solidifies concepts taught in the Grid module by makins us "pain" one of Mondrian's grid paintings
