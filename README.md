@@ -52,3 +52,4 @@ The folders contain files (or other folders) named "solution". Those are the sol
     - 9.4 - This project solidifies the concepts taught throughout this module by making us build a responsive pricing table
 - Grid: 
     - 10.0 - This task introduces the concept of grid positioning
+    - 10.1 - This task solidifies our knowledge about sizing grids in CSS
