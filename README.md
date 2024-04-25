@@ -57,3 +57,4 @@ The folders contain files (or other folders) named "solution". Those are the sol
     - 10.3 - This project solidifies concepts taught in the Grid module by makins us "pain" one of Mondrian's grid paintings
 - Bootstrap:
     - 11.0 - This task introduces the concept of CSS frameworks such as Bootstrap
+    - 11.1 - This task teaches us how to add/use different Bootstrap components such as buttons, carousels etc...
