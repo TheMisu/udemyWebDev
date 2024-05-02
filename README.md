@@ -61,3 +61,5 @@ The folders contain files (or other folders) named "solution". Those are the sol
     - 11.3 - This project solidifies the concepts introduced throughout this module by making us build a website for "TinDog" by using Bootstrap
 - The Document Object Model (DOM):
     - 16.1 - This task teaches us how to change the HTML content of a page using JavaScript
+- Boss Level Challenge 1 - The Dicee Game
+    - 17.1 - This challenge aims at solidifying the knowledge we've gathered about HTML/CSS/JavaScript by having us implement a dice roll game
