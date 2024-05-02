@@ -1,1 +1,1 @@
-document.query
+document.querySelector("ul").lastElementChild.innerHTML = "Changed the content";
