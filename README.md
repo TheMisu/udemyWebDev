@@ -65,3 +65,5 @@ The folders contain files (or other folders) named "solution". Those are the sol
     - 17.1 - This challenge aims at solidifying the knowledge we've gathered about HTML/CSS/JavaScript by having us implement a dice roll game
 - Advanced Javascript and DOM Manipulation:
     - 18.1 - This task teaches us how to add EvenListeners to certain elements in our HTML document. This allows us to come up with new way of using a webpage. It also introduces switch statements and the concept of using functions inside of functions (higher order functions)
+- JQuery:
+    - 19.1 - This "task" introduced jQuery and taught us how to use that to shorten our Javascript code.
