@@ -67,3 +67,5 @@ The folders contain files (or other folders) named "solution". Those are the sol
     - 18.1 - This task teaches us how to add EvenListeners to certain elements in our HTML document. This allows us to come up with new way of using a webpage. It also introduces switch statements and the concept of using functions inside of functions (higher order functions)
 - JQuery:
     - 19.1 - This "task" introduced jQuery and taught us how to use that to shorten our Javascript code.
+- Boss Challenge Level 2 - The Simon Game
+    - This challenge solidies all the knowledge we've gathered so far by having us build a website on which we can play The Simon Game.
