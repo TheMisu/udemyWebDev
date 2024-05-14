@@ -80,6 +80,7 @@ function nextSequence(){
 
     // add the colour to the pattern
     gamePattern.push(randomChosenColour)
+    console.log(gamePattern);
 
     
     // flashing the pressed button and playing the matching audio 
@@ -91,6 +92,7 @@ function nextSequence(){
 
 // function that checks the answer inputted by the user
 function checkAnswer(currentLevel){
+    // if the answer is correct
     if (userClickedPattern[currentLevel - 1] == gamePattern[currentLevel - 1]){
         console.log("success");    
 
@@ -101,9 +103,31 @@ function checkAnswer(currentLevel){
                 nextSequence();
             }, 1000);
         }
+    // if the user's answer is wrong
     } else {
         console.log("wrong");
+        playButtonAudio("wrong");
+        
+        // animate the page's body
+        $("body").addClass("game-over");
+        setTimeout(function() {
+            $("body").removeClass("game-over");
+        }, 200);
+
+        // change the page's h1
+        $("h1").text("Game Over, Press Any Key To Restart");
+        // reset the game if needed
+        console.log(userClickedPattern);
+        // startOver();
     }
+}
+
+
+// function that restarts the game
+function startOver(){
+    level = 0;
+    gamePattern = [];
+    gameStarted = false;
 }
 
 // handler in case jQuery detects a click on any of the buttons
@@ -112,6 +136,7 @@ $(".btn").click(function() {
     var userChosenColour = $(this).attr("id");
     // adding the clicked colour to the array that stores the user's seq
     userClickedPattern.push(userChosenColour);
+    console.log(userClickedPattern);
     playButtonAudio(userChosenColour); // plays the sounds that matches the button
     buttonFlashAnimation(userChosenColour); // animates the button
 
