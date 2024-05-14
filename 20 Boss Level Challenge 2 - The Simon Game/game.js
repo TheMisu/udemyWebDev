@@ -92,8 +92,11 @@ function nextSequence(){
 
 // function that checks the answer inputted by the user
 function checkAnswer(currentLevel){
+    console.log(currentLevel);
     // if the answer is correct
-    if (userClickedPattern[currentLevel - 1] == gamePattern[currentLevel - 1]){
+    for (var i = 0; i < currentLevel; i++){
+        
+    if (userClickedPattern[i] == gamePattern[i]){
         console.log("success");    
 
         // checking whether the sequence has finished
@@ -120,15 +123,43 @@ function checkAnswer(currentLevel){
         console.log(userClickedPattern);
         // startOver();
     }
+    }
+    // if (userClickedPattern[currentLevel - 1] == gamePattern[currentLevel - 1]){
+    //     console.log("success");    
+
+    //     // checking whether the sequence has finished
+    //     if (userClickedPattern.length === gamePattern.length ){
+    //         // call the nextSequence func with a 1000ms delay
+    //         setTimeout(function() {
+    //             nextSequence();
+    //         }, 1000);
+    //     }
+    // // if the user's answer is wrong
+    // } else {
+    //     console.log("wrong");
+    //     playButtonAudio("wrong");
+        
+    //     // animate the page's body
+    //     $("body").addClass("game-over");
+    //     setTimeout(function() {
+    //         $("body").removeClass("game-over");
+    //     }, 200);
+
+    //     // change the page's h1
+    //     $("h1").text("Game Over, Press Any Key To Restart");
+    //     // reset the game if needed
+    //     console.log(userClickedPattern);
+    //     // startOver();
+    // }
 }
 
 
 // function that restarts the game
-function startOver(){
-    level = 0;
-    gamePattern = [];
-    gameStarted = false;
-}
+// function startOver(){
+//     level = 0;
+//     gamePattern = [];
+//     gameStarted = false;
+// }
 
 // handler in case jQuery detects a click on any of the buttons
 $(".btn").click(function() {
