@@ -5,6 +5,9 @@ var gamePattern = [];
 // init array that stores the user clicked pattern
 var userClickedPattern = [];
 
+// init a level tracker and a gameStarted tracker
+var level = 0;
+var gameStarted = false;
 
 
 // func that changes the button design once it's pressed
@@ -47,6 +50,13 @@ function playButtonAudio(buttonColour) {
 
 // function that randomly creates a sequence of pressed buttons
 function nextSequence(){
+    // changing the value of the h1 element
+    $("h1").text("Level " + level);
+    
+    // change the level number
+    level += 1;
+
+
     // generate a random number between 0 and 3
     var randomNumber = Math.floor(Math.random() * 4);
     
@@ -74,6 +84,14 @@ $(".btn").click(function() {
     buttonFlashAnimation(userChosenColour); // animates the button
 })
 
-// $(document).on("keydown click", function(event) {
-//     nextSequence();
-// })
+// check if the game was started or not
+if (gameStarted !== true){
+    gameStarted = true;
+    $(document).on("keydown", function(event) {
+        // following code block makes it so that nextSequence() only get called once
+        if (gameStarted) {
+            nextSequence();
+            gameStarted = false;
+        }
+    })
+}
