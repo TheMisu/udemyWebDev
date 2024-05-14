@@ -10,6 +10,19 @@ var level = 0;
 var gameStarted = false;
 
 
+
+// check if the game was started or not
+$(document).keydown(function(event) {
+    // following code block makes it so that nextSequence() only get called once
+    if (!gameStarted) {
+        $("#level-title").text("Level " + level);
+        nextSequence();
+        gameStarted = true;
+    }
+})
+
+
+
 // func that changes the button design once it's pressed
 function buttonPressAnimation(buttonColour) {
     // accessing the activated button
@@ -50,12 +63,12 @@ function playButtonAudio(buttonColour) {
 
 // function that randomly creates a sequence of pressed buttons
 function nextSequence(){
-    // changing the value of the h1 element
-    $("h1").text("Level " + level);
     
     // change the level number
     level += 1;
-
+    
+    // changing the value of the h1 element
+    $("h1").text("Level " + level);
 
     // generate a random number between 0 and 3
     var randomNumber = Math.floor(Math.random() * 4);
@@ -83,15 +96,3 @@ $(".btn").click(function() {
     playButtonAudio(userChosenColour); // plays the sounds that matches the button
     buttonFlashAnimation(userChosenColour); // animates the button
 })
-
-// check if the game was started or not
-if (gameStarted !== true){
-    gameStarted = true;
-    $(document).on("keydown", function(event) {
-        // following code block makes it so that nextSequence() only get called once
-        if (gameStarted) {
-            nextSequence();
-            gameStarted = false;
-        }
-    })
-}
