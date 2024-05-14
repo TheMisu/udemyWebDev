@@ -70,7 +70,7 @@ $(".btn").click(function() {
     var userChosenColour = $(this).attr("id");
     // adding the clicked colour to the array that stores the user's seq
     userClickedPattern.push(userChosenColour);
-    console.log(userClickedPattern);
+    playButtonAudio(userChosenColour);
 })
 
 // $(document).on("keydown click", function(event) {
