@@ -63,7 +63,9 @@ function playButtonAudio(buttonColour) {
 
 // function that randomly creates a sequence of pressed buttons
 function nextSequence(){
-    
+    // resetting the userClickedPattern
+    userClickedPattern = [];    
+
     // change the level number
     level += 1;
     
@@ -87,6 +89,23 @@ function nextSequence(){
 
 
 
+// function that checks the answer inputted by the user
+function checkAnswer(currentLevel){
+    if (userClickedPattern[currentLevel - 1] == gamePattern[currentLevel - 1]){
+        console.log("success");    
+
+        // checking whether the sequence has finished
+        if (userClickedPattern.length === gamePattern.length ){
+            // call the nextSequence func with a 1000ms delay
+            setTimeout(function() {
+                nextSequence();
+            }, 1000);
+        }
+    } else {
+        console.log("wrong");
+    }
+}
+
 // handler in case jQuery detects a click on any of the buttons
 $(".btn").click(function() {
     // init var that stores the colour/id of the clicked button
@@ -95,4 +114,7 @@ $(".btn").click(function() {
     userClickedPattern.push(userChosenColour);
     playButtonAudio(userChosenColour); // plays the sounds that matches the button
     buttonFlashAnimation(userChosenColour); // animates the button
+
+    // verifying whether the user has clicked the correct sequence
+    checkAnswer(level);
 })
