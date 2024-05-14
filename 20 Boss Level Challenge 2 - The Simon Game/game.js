@@ -2,6 +2,8 @@
 const buttonColours = ["red", "blue", "green", "yellow"];
 // init array that stores the pattern generated in this iteration of the game
 var gamePattern = [];
+// init array that stores the user clicked pattern
+var userClickedPattern = [];
 
 
 
@@ -60,6 +62,17 @@ function nextSequence(){
     playButtonAudio(randomChosenColour);
 }
 
-$(document).on("keydown click", function(event) {
-    nextSequence();
+
+
+// handler in case jQuery detects a click on any of the buttons
+$(".btn").click(function() {
+    // init var that stores the colour/id of the clicked button
+    var userChosenColour = $(this).attr("id");
+    // adding the clicked colour to the array that stores the user's seq
+    userClickedPattern.push(userChosenColour);
+    console.log(userClickedPattern);
 })
+
+// $(document).on("keydown click", function(event) {
+//     nextSequence();
+// })
