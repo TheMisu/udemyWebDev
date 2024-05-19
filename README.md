@@ -69,3 +69,7 @@ The folders contain files (or other folders) named "solution". Those are the sol
     - 19.1 - This "task" introduced jQuery and taught us how to use that to shorten our Javascript code.
 - Boss Challenge Level 2 - The Simon Game:
     - This challenge solidies all the knowledge we've gathered so far by having us build a website on which we can play The Simon Game.
+- NodeJs:
+    - 23.1 - This task introduces us to the NodeJS runtime environment
+    - 23.2 - This task teaches us how to work with native NodeJS modules such as fs
+    - 23.3 - This task teaches us how to use NPM to use community-made JS packages
