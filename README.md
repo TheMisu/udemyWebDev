@@ -73,3 +73,6 @@ The folders contain files (or other folders) named "solution". Those are the sol
     - 23.1 - This task introduces us to the NodeJS runtime environment
     - 23.2 - This task teaches us how to work with native NodeJS modules such as fs
     - 23.3 - This task teaches us how to use NPM to use community-made JS packages
+    - 23.4 - This task solidifies the knowledge gathered so far by having us build a QR code generator.
+- Express.JS:
+    - 24.1 - This task introduces the concept of backend programming using Express.JS
