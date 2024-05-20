@@ -76,3 +76,4 @@ The folders contain files (or other folders) named "solution". Those are the sol
     - 23.4 - This task solidifies the knowledge gathered so far by having us build a QR code generator.
 - Express.JS:
     - 24.1 - This task introduces the concept of backend programming using Express.JS
+    - 24.2 - This task teaches us how to use various HTTP Requests using Express.JS
