@@ -82,3 +82,4 @@ The folders contain files (or other folders) named "solution". Those are the sol
     - 24.5 - This task solidifies the knowledge we've gathered about Express.JS and middleware by having us build an app that renders a specific page, based on whether or not the user inputted the correct password.
 - EJS (Embedded JavaScript):
     - 25.0 - This task teaches us how to setup Node in order to use EJS (to create custom HTML templates that are mixed with JS)
+    - 25.1 - This task teaches us how to use different EJS tags, based on what we want to achieve on the webpage.

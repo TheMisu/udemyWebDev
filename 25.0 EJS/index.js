@@ -18,10 +18,10 @@ app.get("/", (req, res) => {
     // computing what type of day we have
     if (dayIndex < 5){
         dayType = "a weekday";
-        advice = "time to grind!";
+        advice = "it's time to grind!";
     } else {
         dayType = "the weekend";
-        advice = "time to relax...";
+        advice = "it's time to relax...";
     }
 
 
