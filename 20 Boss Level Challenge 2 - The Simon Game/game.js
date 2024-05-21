@@ -80,7 +80,7 @@ function nextSequence(){
 
     // add the colour to the pattern
     gamePattern.push(randomChosenColour)
-    console.log(gamePattern);
+    console.log("Game Pattern in NS(): " + gamePattern);
 
     
     // flashing the pressed button and playing the matching audio 
@@ -91,37 +91,39 @@ function nextSequence(){
 
 
 // function that checks the answer inputted by the user
-function checkAnswer(currentLevel){
-    console.log(currentLevel);
-    // if the answer is correct
-    for (var i = 0; i < currentLevel; i++){
-        
-    if (userClickedPattern[i] == gamePattern[i]){
-        console.log("success");    
-
-        // checking whether the sequence has finished
-        if (userClickedPattern.length === gamePattern.length ){
-            // call the nextSequence func with a 1000ms delay
-            setTimeout(function() {
-                nextSequence();
-            }, 1000);
+function checkAnswer() {
+    // allMatch tracks whether all elems of userClickedPattern match all elems of gamePattern
+    allMatch = true
+    // iterate over the userClickedPattern
+    for (let i = 0; i < userClickedPattern.length; i++) {
+        // if any element doesn't match with the corresponding elem in gamePattern
+        if (userClickedPattern[i] !== gamePattern[i]){
+            console.log("Wrong!");
+            allMatch = false
         }
-    // if the user's answer is wrong
-    } else {
-        console.log("wrong");
+    }
+
+    // if everything matches, start the next level
+    if (userClickedPattern.length === gamePattern.length && allMatch){
+        console.log("Success!");
+        setTimeout(function() {
+            nextSequence();
+        }, 1000);
+    }
+
+    // if the user made a mistake in their sequence
+    if (!allMatch){
         playButtonAudio("wrong");
-        
-        // animate the page's body
+
+        // animate the body (make it flash with red)
         $("body").addClass("game-over");
         setTimeout(function() {
             $("body").removeClass("game-over");
         }, 200);
 
-        // change the page's h1
-        $("h1").text("Game Over, Press Any Key To Restart");
-        // reset the game if needed
-        console.log(userClickedPattern);
-        // startOver();
+        // change the page's h1 element and restart the game
+        $("h1").text("Game Over, Press Any Key to Restart"); 
+        startOver();
     }
     }
     // if (userClickedPattern[currentLevel - 1] == gamePattern[currentLevel - 1]){
@@ -154,12 +156,13 @@ function checkAnswer(currentLevel){
 }
 
 
+
 // function that restarts the game
-// function startOver(){
-//     level = 0;
-//     gamePattern = [];
-//     gameStarted = false;
-// }
+function startOver() {
+    level = 0;
+    gamePattern = [];
+    gameStarted = false;
+} 
 
 // handler in case jQuery detects a click on any of the buttons
 $(".btn").click(function() {

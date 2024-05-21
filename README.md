@@ -69,3 +69,17 @@ The folders contain files (or other folders) named "solution". Those are the sol
     - 19.1 - This "task" introduced jQuery and taught us how to use that to shorten our Javascript code.
 - Boss Challenge Level 2 - The Simon Game:
     - This challenge solidies all the knowledge we've gathered so far by having us build a website on which we can play The Simon Game.
+- NodeJs:
+    - 23.1 - This task introduces us to the NodeJS runtime environment
+    - 23.2 - This task teaches us how to work with native NodeJS modules such as fs
+    - 23.3 - This task teaches us how to use NPM to use community-made JS packages
+    - 23.4 - This task solidifies the knowledge gathered so far by having us build a QR code generator.
+- Express.JS:
+    - 24.1 - This task introduces the concept of backend programming using Express.JS
+    - 24.2 - This task teaches us how to use various HTTP Requests using Express.JS
+    - 24.3 - This task teaches us how to use Postman to monitor our backend routes without having an implemented frontend.
+    - 24.4 - This task teaches us how to add/use middleware into our web app and how to write our own custom middleware.
+    - 24.5 - This task solidifies the knowledge we've gathered about Express.JS and middleware by having us build an app that renders a specific page, based on whether or not the user inputted the correct password.
+- EJS (Embedded JavaScript):
+    - 25.0 - This task teaches us how to setup Node in order to use EJS (to create custom HTML templates that are mixed with JS)
+    - 25.1 - This task teaches us how to use different EJS tags, based on what we want to achieve on the webpage.
