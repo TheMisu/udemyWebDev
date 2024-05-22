@@ -85,3 +85,4 @@ The folders contain files (or other folders) named "solution". Those are the sol
     - 25.1 - This task teaches us how to use different EJS tags, based on what we want to achieve on the webpage.
     - 25.2 - This task teaches us how to use EJS in order to pass data from and to the website.
     - 25.3 - This task teaches us how to add static files to an Express.JS project and how to add partials (templates) to webpages.
+    - 25.4 - This task solidifies all the knowledge we've gathered during this module.
